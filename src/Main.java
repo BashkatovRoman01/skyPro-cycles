@@ -30,6 +30,11 @@ public class Main {
         for (int i = 7; i <=98 ; i=i+7) {
             System.out.println(i);
         }
+        // Задание 7
+        System.out.println("// Задание 7");
+        for (int i = 1; i <=512 ; i=i*2) {
+            System.out.println(i);
+        }
     }
 
 }
