@@ -35,6 +35,17 @@ public class Main {
         for (int i = 1; i <=512 ; i=i*2) {
             System.out.println(i);
         }
+        // Задание 8
+        System.out.println("// Задание 8");
+        int salary=29000;
+        int total = 0;
+        for (int i = 1; i <=12 ; i++) {
+            total=total+salary;
+            System.out.println("Месяц " + i + " , сумма накоплений равна " + total + " рублей. ");
+        }
+        // Задание 9
+        System.out.println("// Задание 9");
+
     }
 
 }
